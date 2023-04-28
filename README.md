@@ -5,6 +5,7 @@
 It supports following cron expression
 ```
 expression: millisecond second minute hour day month year weekday weekOfMonth weekOfYear ;
+
 millisecond: PART ;
 second: PART ;
 minute: PART ;
@@ -15,6 +16,7 @@ year: PART ;
 weekday: PART;
 weekOfMonth: PART;
 weekOfYear: PART;
+
 PART: RANGE(/Every)? ;
 RANGE: * | SINGLE | DOUBLE ;
 SINGLE: \d+ ;
