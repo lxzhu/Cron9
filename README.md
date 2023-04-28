@@ -4,7 +4,7 @@
 
 It supports following cron expression
 ```
-millisecond second minute hour day month year weekday weekOfMonth weekOfYear
+expression: millisecond second minute hour day month year weekday weekOfMonth weekOfYear ;
 millisecond: PART ;
 second: PART ;
 minute: PART ;
